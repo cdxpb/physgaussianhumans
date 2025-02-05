@@ -32,34 +32,12 @@ The 3DGS models used in this project were created through a two-step process:
 
 ## Results
 
-<div style="display: flex; gap: 20px;">
-<div>
-<img src="./results/Picture11.gif" alt="Alt text" width="33%"/>
-<figcaption>toppling_lightning_technician.json</figcaption>
-</div>
-<div>
-<img src="./results/Picture12.gif" alt="Alt text" width="33%"/> <figcaption>dancing_rapper.json</figcaption> 
-</div>
-</div>
+| | |
+|:---:|:---:|
+| <img src="./results/Picture11.gif" alt="toppling_lightning_technician" width="100%"> | <img src="./results/Picture12.gif" alt="dancing_rapper" width="100%"> |
+| toppling_lightning_technician.json | dancing_rapper.json |
+| <img src="./results/Picture13.gif" alt="wind_dynamics" width="100%"> | <img src="./results/Picture14.gif" alt="trampoline" width="100%"> |
+| wind_dynamics.json | trampoline.json |
+| <img src="./results/Picture15.gif" alt="human_punching" width="100%"> | <img src="./results/Picture16.gif" alt="cliff" width="100%"> |
+| human_punching.json | cliff.json |
 
-<div style="display: flex; gap: 20px;">
-<div>
-<img src="./results/Picture13.gif" alt="Alt text" width="33%"/> 
-<figcaption>wind_dynamics.json</figcaption> 
-</div>
-<div>
-<img src="./results/Picture14.gif" alt="Alt text" width="33%"/> 
-<figcaption>trampoline.json</figcaption> 
-</div>
-</div>
-
-<div style="display: flex; gap: 20px;">
-<div>
-<img src="./results/Picture15.gif" alt="Alt text" width="33%"/>
-<figcaption>human_punching.json</figcaption>
-</div>
-<div>
-<img src="./results/Picture16.gif" alt="Alt text"width="33%"/>
-<figcaption>cliff.json</figcaption>
-</div>
-</div>
