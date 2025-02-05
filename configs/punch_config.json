@@ -7,16 +7,13 @@
     "frame_num": 25,
     "nu": 0.4,
     "E": 1e6,
-    "material": "metal",
-    "density": 100,
+    "material": "jelly",
+    "density": 50,
     "g": [0,0, 0],
     "grid_v_damping_scale": 0.9999,
     "rpic_damping": 0.0,
-
     "boundary_conditions": [
-			  {
-          "type": "bounding_box"
-        },
+			  { "type": "bounding_box"},
 				{"type": "cuboid",
 					"point": [1, 1, 0.5],
 					"size": [0.9, 0.9, 0.3],

@@ -1,0 +1,117 @@
+{
+    "opacity_threshold": 0.02,
+    "rotation_degree": [0.0],
+    "rotation_axis": [0],
+    "substep_dt": 1e-4,
+    "frame_dt": 4e-2,
+    "frame_num": 28,
+    
+    "material": "sand", 
+    "nu": 0.4,
+    "E": 1e6,
+    "density": 50000,
+    "g": [-2,0,-10],
+
+    "grid_v_damping_scale": 0.9999,
+    "rpic_damping": 0.0,
+
+    "friction_angle": 90,
+
+    "boundary_conditions": [
+
+        {
+            "type": "cuboid",
+            "point": [
+                1,
+                1,
+                0.5
+            ],
+            "size": [
+                1,
+                1,
+                0.55
+            ],
+            "velocity": [
+                0,
+                0,
+                0
+            ],
+            "start_time": 0,
+            "end_time": 1e3,
+            "reset": 1
+        },
+
+        {
+            "type": "cuboid",
+            "point": [
+                1,
+                1,
+                0.5
+            ],
+            "size": [
+                0.15,
+                0.15,
+                1
+            ],
+            "velocity": [
+                0,
+                0,
+                0
+            ],
+            "start_time": 0,
+            "end_time": 1e3,
+            "reset": 1
+        },
+
+        {
+            "type": "surface_collider",
+            "point": [
+                1,
+                1,
+                0.5
+            ],
+            "normal": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "surface": "sticky",
+            "friction": 0.0,
+            "start_time": 0,
+            "end_time": 1e3
+        },
+
+        {
+            "type": "surface_collider",
+            "point": [
+                1,
+                1.7,
+                1
+            ],
+            "normal": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "surface": "cut",
+            "friction": 1,
+            "start_time": 0.1,
+            "end_time": 1e3
+        }
+
+    ],
+
+    "mpm_space_vertical_upward_axis": [0,0,1],
+    "mpm_space_viewpoint_center": [1,1,1],
+    
+    "default_camera_index": 45,
+    "show_hint": false,
+    "init_azimuthm": 83.53114475106976,
+    "init_elevation": 32.75309194808712,
+    "init_radius": 23.550540623088295,
+    "move_camera": true,
+
+    "delta_a": 100.0,
+    "delta_e": 0.0,
+    "delta_r": 0.0
+}
