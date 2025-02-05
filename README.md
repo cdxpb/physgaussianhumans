@@ -20,6 +20,10 @@ To render the simulated motion, use the following command:
 
 `python gs_simulation.py --model_path <path to gs model> --output_path <path to output folder> --config <path to json config file> --render_img --compile_video`
 
+For example, to reproduce the human punching scene:
+ 
+`python gs_simulation.py --model_path /models/punch --output_path outputPunch --config human_punching.json --render_img --compile_video`
+
 ## 3D Gaussian Splatting Model Generation
 
 The 3DGS models used in this project were created through a two-step process:
